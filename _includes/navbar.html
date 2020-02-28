@@ -1,0 +1,10 @@
+<header class="navbar">
+  <div class="wrapper navbar__wrapper">
+    <span class="navbar__logo">🎓</span>
+    <nav class="navbar__nav">
+      {% for link in site.data.links %}
+        <a class="navbar__items" href="{{site.baseurl}}{{link.url}}">{{link.title}}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>

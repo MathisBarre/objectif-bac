@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+{% include navbar.html %}
+
+<div class="wrapper">
+  {% for article in site.articles %}
+  <div class="articlePrevs">
+    <article class="articlePrev">
+      <h1 class="articlePrev__title">{{article.title}} <span class="articlePrev__subtitle">par {{article.auteur}}</span></h1>
+      <p class="articlePrev__p">{{article.description}}</p>
+      <a href="{{article.url}}" class="articlePrev__a">Lire l'article</a>
+    </article>
+  </div>
+  {% endfor %}
+</div>
