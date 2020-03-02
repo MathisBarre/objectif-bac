@@ -51,6 +51,9 @@ $gradient: linear-gradient(-45deg, #FF9100, #FFE600);;
     margin-right: 50px;
     color: white;
     text-shadow: 0 0 10px #0000006e;
+    &:last-child {
+      margin-right: 0;
+    }
   }
 }
 
