@@ -57,6 +57,22 @@ $gradient: linear-gradient(-45deg, #FF9100, #FFE600);;
   }
 }
 
+@media screen and (max-width: 1000px) {
+  .navbar {
+    &__nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+
+    &__items {
+      margin: 0;
+    }
+  }
+}
+
 .articlePrev {
   margin-top: 50px;
 
