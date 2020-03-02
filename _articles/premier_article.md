@@ -1,16 +1,18 @@
 ---
+backgroundUrl: >-
+  https://media.gettyimages.com/vectors/abstract-blue-vector-background-with-stripes-vector-id950254068?b=1&k=6&m=950254068&s=612x612&w=0&h=X8k0P_ZOEHLVi3x6GJxVpn5Rwjrmmbp-TXO-XOgpP-Q=
 layout: article
-title: Premier article
-matiere: mathématiques
-description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus eum odio cum officia. Quis, tempora.
-
+date: 2020-03-02T13:28:01.206Z
 auteur: Mania
-tags:
-  - ""
-backgroundUrl: https://media.gettyimages.com/vectors/abstract-blue-vector-background-with-stripes-vector-id950254068?b=1&k=6&m=950254068&s=612x612&w=0&h=X8k0P_ZOEHLVi3x6GJxVpn5Rwjrmmbp-TXO-XOgpP-Q=
+matiere: mathématiques
 headerColor: white
+title: Premier article
+tags:
+  - ''
+description: >-
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus eum odio
+  cum officia. Quis, tempora.
 ---
-
 # Titre 1
 
 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, voluptatibus placeat cumque quo ipsum incidunt distinctio consequatur, eligendi, repellat magnam sapiente iusto corrupti voluptate? Enim harum, deserunt fugiat itaque non corrupti vel, esse numquam, dolorum totam voluptate voluptatum temporibus sequi ab dicta cumque eius cum. Facere sequi accusantium repellat voluptatum.
