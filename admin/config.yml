@@ -2,9 +2,17 @@ backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
 media_folder: 'assets/uploads'
+
 collections:
-  - name: 'articles'
-    label: 'Articles'
-    folder: '_articles/'
+  - name: "articles"
+    label: "Articles"
+    folder: "_articles"
+    create: true
     fields:
-      - { name: Title }
+      - {label: "Layout", name: "layout", widget: "hidden", default: "article"}
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Date de publication", name: "date", widget: "datetime"}
+      - {label: "Image d'en tête", name: "headerImg", widget: "image", required: false }
+      - {label: "Auteur", name: "auteur", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}

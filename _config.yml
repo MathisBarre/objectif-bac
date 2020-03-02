@@ -1,7 +1,7 @@
 baseurl: "https://objectif-bac.netlify.com/"
 title: Objectif bac
-favicon_url: 
-description: 
+favicon_url: ""
+description: ""
 collections:
   articles:
     output: true
