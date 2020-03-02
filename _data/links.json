@@ -2,5 +2,9 @@
   {
     "title": "Accueil",
     "url": "index.html"
+  },
+  {
+    "title": "Administration",
+    "url": "admin"
   }
 ]
