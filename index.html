@@ -5,7 +5,8 @@ layout: default
 {% include navbar.html %}
 
 <div class="wrapper">
-  {% for article in site.articles %}
+  {% assign articles = site.articles | sort: 'date' | reverse %}
+  {% for article in articles %}
   <div class="articlePrevs">
     <article class="articlePrev">
       <h1 class="articlePrev__title">{{article.title}} <span class="articlePrev__subtitle">par {{article.auteur}}</span></h1>
