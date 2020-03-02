@@ -5,7 +5,7 @@ description: >-
   Pour ce premier article, je vais vous faire une introduction au monde du
   développement web puis je vous donnerai des liens utiles si vous voulez
   continuer votre apprentissage par vous même
-date: 2020-03-03T20:13:00.000Z
+date: 2020-03-02T20:13:00.000Z
 auteur: Mania
 ---
 # Qu'est ce que c'est que c'est quoi le développement web ?
