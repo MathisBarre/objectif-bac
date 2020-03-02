@@ -3,7 +3,12 @@
     <span class="navbar__logo">🎓</span>
     <nav class="navbar__nav">
       {% for link in site.data.links %}
-        <a class="navbar__items" href="{{site.baseurl}}{{link.url}}">{{link.title}}</a>
+        {% if link.externalLink != true %}
+          {% assign url = site.baseurl | append: link.url %}
+        {% else %}
+          {% assign url = link.url %}
+        {% endif %}
+        <a class="navbar__items" href="{{url}}">{{link.title}}</a>
       {% endfor %}
     </nav>
   </div>

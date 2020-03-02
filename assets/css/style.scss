@@ -117,3 +117,14 @@ $gradient: linear-gradient(-45deg, #FF9100, #FFE600);;
     display: block;
   }
 }
+
+.discordAd {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  height: 50px;
+  width: 150px;
+  border-radius: 7px;
+  background-color: #2C2F33;
+  padding: 5px;
+}

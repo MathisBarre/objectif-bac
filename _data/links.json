@@ -4,6 +4,11 @@
     "url": "index.html"
   },
   {
+    "title": "Discord",
+    "url": "https://discord.gg/mtY6pQb",
+    "externalLink": true
+  },
+  {
     "title": "Administration",
     "url": "admin"
   }
