@@ -1,17 +1,12 @@
 ---
-backgroundUrl: >-
-  https://media.gettyimages.com/vectors/abstract-blue-vector-background-with-stripes-vector-id950254068?b=1&k=6&m=950254068&s=612x612&w=0&h=X8k0P_ZOEHLVi3x6GJxVpn5Rwjrmmbp-TXO-XOgpP-Q=
 layout: article
-date: 2020-03-02T13:28:01.206Z
-auteur: Mania
-matiere: mathématiques
-headerColor: white
 title: Premier article
-tags:
-  - ''
 description: >-
   Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus eum odio
   cum officia. Quis, tempora.
+date: 2020-03-02T13:28:01.206Z
+auteur: Mania
+permalink: premier-article
 ---
 # Titre 1
 

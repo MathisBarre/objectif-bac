@@ -7,6 +7,7 @@ description: >-
   continuer votre apprentissage par vous même
 date: 2020-03-02T20:13:00.000Z
 auteur: Mania
+permalink: introduction-developpement-web
 ---
 # Qu'est ce que c'est que c'est quoi le développement web ?
 

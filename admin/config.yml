@@ -1,7 +1,11 @@
 backend:
   name: git-gateway
+  repo: MathisBarre/objectif-bac
   branch: master # Branch to update (optional; defaults to master)
+
 media_folder: 'assets/uploads'
+site_url: https://objectif-bac.netlify.com
+logo_url: https://objectif-bac.netlify.com/assets/img/logo.png
 
 slug:
   encoding: "ascii"
@@ -20,4 +24,5 @@ collections:
       - {label: "Date de publication", name: "date", widget: "datetime"}
       - {label: "Image d'en tête", name: "headerImg", widget: "image", required: false }
       - {label: "Auteur", name: "auteur", widget: "string"}
+      - {label: "Lien permanent", name: "permalink", widget: "string", hint: "Exemple : monArticle ou articles/monarticle", required: false }
       - {label: "Body", name: "body", widget: "markdown"}
