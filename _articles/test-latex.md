@@ -8,17 +8,17 @@ date: 2020-03-02T13:28:01.206Z
 auteur: Mania
 permalink: latex
 ---
-
+Voici comment marche LaTex :
 
 <p>
 When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
-\[x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\]
+\\[x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\]
 </p>
 
 <p>
 $$
-  \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
-  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
+  \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie\_i, \sum\_{j=1}^n y_je\_j \right)
+  = \sum\_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
     (x_1, \ldots, x_n) \left( \begin{array}{ccc}
       \phi(e_1, e_1) & \cdots & \phi(e_1, e_n) \\
       \vdots & \ddots & \vdots \\
