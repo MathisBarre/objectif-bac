@@ -5,5 +5,8 @@ description: ""
 collections:
   articles:
     output: true
-
+markdown: kramdown
+parse_block_html: true
 environment: production
+
+math_engine: mathsJax
