@@ -7,7 +7,7 @@ description: >-
   également aux nombres complexes 
 date: 2020-03-06T21:53:33.394Z
 auteur: Pamplemousse
-permalink: 'Article Initial '
+permalink: Trigonometrie-et-nombres-complexes
 ---
 # Trigonométrie et nombres complexes
 
