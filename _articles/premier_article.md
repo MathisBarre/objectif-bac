@@ -1,9 +1,9 @@
 ---
 layout: article
-title: Premier article
+title: Affichage d'un article
 description: >-
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus eum odio
-  cum officia. Quis, tempora.
+  Cet article a pour objectif de montrer comment les différents éléments d'un
+  article s'affichent (titre / images / LaTeX / bloc de code)
 date: 2020-03-02T13:28:01.206Z
 auteur: Mania
 permalink: premier-article
@@ -28,3 +28,13 @@ Odio quidem? Unde eligendi dicta corporis facere debitis illum necessitatibus it
 ## Titre 2.1
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus architecto, omnis quae cum praesentium ipsam iste labore cumque. Eligendi fuga vel recusandae? Repellendus, eveniet quos.
+
+
+
+When $$a \ne 0$$, there are two solutions to $$ax^2 + bx + c = 0$$ and they are $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+
+$$   \phi(x,y) = \phi \left(\sum*{i=1}^n x_ie_i, \sum*{j=1}^n y*je_j \right)   = \sum*{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \     (x_1, \ldots, x_n) \left( \begin{array}{ccc}       \phi(e_1, e_1) & \cdots & \phi(e_1, e_n) \       \vdots & \ddots & \vdots \       \phi(e_n, e_1) & \cdots & \phi(e_n, e_n)     \end{array} \right)
+  \left( \begin{array}{c}
+      y_1 \       \vdots \       y_n
+    \end{array} \right)
+$$
