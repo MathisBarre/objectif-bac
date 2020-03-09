@@ -6,7 +6,7 @@ description: >-
   cum officia. Quis, tempora.
 date: 2020-03-02T13:28:01.206Z
 auteur: Mania
-permalink: latex
+permalink: latex/MSDVSDdvsdc
 ---
 Voici comment marche LaTex :
 
