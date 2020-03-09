@@ -115,6 +115,10 @@ $gradient: linear-gradient(-45deg, #FF9100, #FFE600);;
   margin-top: 20px;
   margin-bottom: 100px;
 
+  > * {
+    overflow: auto;
+  }
+
   h1, h2, h3 {
     margin: 10px 0;
   }
