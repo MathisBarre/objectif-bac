@@ -25,5 +25,5 @@ collections:
       - {label: "Date de publication", name: "date", widget: "datetime"}
       - {label: "Image d'en tête", name: "headerImg", widget: "image", required: false }
       - {label: "Auteur", name: "auteur", widget: "string"}
-      - {label: "Lien permanent", name: "permalink", widget: "string", hint: "Exemple : monArticle ou articles/monarticle" }
+      - {label: "Lien permanent", name: "permalink", widget: "string", hint: "Exemple : monArticle ou articles/monarticle", pattern : ['^(?:[A-Z]|[a-z]|[1-9]|[\-\/_])+$', 'Pas de majuscule, d'espace, de caractère accentué ou spéciaux'] }
       - {label: "Body", name: "body", widget: "markdown"}
