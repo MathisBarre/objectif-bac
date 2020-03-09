@@ -10,12 +10,11 @@ permalink: latex
 ---
 
 
-<p>
-When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
-\[x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\]
-</p>
+When $$a \ne 0$$, there are two solutions to $$ax^2 + bx + c = 0$$ and they are
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
 
-<p>
+
+
 $$
   \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
   = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
@@ -30,4 +29,3 @@ $$
       y_n
     \end{array} \right)
 $$
-</p>
